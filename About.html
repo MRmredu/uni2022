@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/afd6bb5559.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-head">
+        <nav>
+            <a href="index.html"><img src="pngegg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>About Us</h1>        
+    </section>
+
+    <!--about us content-->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We Are The World Largest University</h1>
+                <p>This is the part of your UCAS application where you convince universities that they 
+                need you on their course. And really, aerospace engineering UCAS personal statements 
+                for undergraduate degrees are broadly similar to an aerospace engineering postgraduate 
+                personal statement - whatever the level of study, the idea is to sell yourself.Although 
+                the structural model provided by the University of Paris, where student members are 
+                controlled by faculty "masters", provided a standard for universities,this model took 
+                three different forms. There were universities that had a system of faculties whose 
+                teaching addressed a very specific curriculum; this model tended to train specialists.</p>
+                <a href="" class="abul modon">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Oxford is a collegiate research university in Oxford, England.
+        There is evidence of teaching<br> as early as making it the oldest 
+        university in the English-speaking world and the world's second-oldest university in continuous operation.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </div>
+    <b> <p>Made  With <i class="fa fa-heart-o" aria-hidden="true"></i> by  Mredul</p> </b>
+</section>
+
+
+
+
+
+<!-- For Javascript -->
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>

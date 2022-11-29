@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/afd6bb5559.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-head">
+        <nav>
+            <a href="index.html"><img src="pngegg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Contact Us</h1>        
+    </section>
+
+    <!--Contact us content-->
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1486.9754906525118!2d-1.2621478930214145!3d51.75814726630839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6ae59a55bcd%3A0xa01999d1beecc23c!2sOxford%20University%20Admissions%20Office!5e0!3m2!1sbn!2sbd!4v1668347338107!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <span>
+                        <h5>University Offices, Wellington Square, Oxford OX1 2JD, UK</h5>
+                        <p>UNIGHTED KINGDOM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <span>
+                        <h5>+441865270000</h5>
+                        <p>Always open 24hour</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                    <span>
+                        <h5>www.ox.ac.uk/admissions</h5>
+                        <p>Email Us Your Appilication</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="abul modon">Send Message</button>
+                </form>
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Oxford is a collegiate research university in Oxford, England.
+        There is evidence of teaching<br> as early as making it the oldest 
+        university in the English-speaking world and the world's second-oldest university in continuous operation.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </div>
+    <b> <p>Made  With <i class="fa fa-heart-o" aria-hidden="true"></i> by  Mredul</p> </b>
+</section>
+
+
+
+
+
+<!-- For Javascript -->
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>

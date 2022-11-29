@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/afd6bb5559.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-head">
+        <nav>
+            <a href="index.html"><img src="pngegg.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle"onclick="hideMenu()"></i>
+
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+    <h1>Our Courses</h1>        
+    </section>
+
+<!-- Course-->
+
+<section class="course">
+    <h1>Courses We Offer!</h1>
+    <p> Here we offer 3 types of courses.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediate</h3>
+            <p>Politics, History, Geography, Physics, Chemistry, Math, Biology, 
+                Zoology, Biography, Crafts, psychology, Echonomics</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Politics, History, Geography, Physics, Chemistry, Math, Biology, 
+                Zoology, Biography, Crafts, psychology, Echonomics</p>
+        </div>  
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>Politics, History, Geography, Physics, Chemistry, Math, Biology, 
+                Zoology, Biography, Crafts, psychology, Echonomics</p>
+        </div>
+    </div>
+
+</section>
+
+<!--Facilities-->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>We gives you a lot of facilities. And you should be benifited by our varities types of facilities.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="library.jpg">
+            <h3>World Class Library</h3>
+            <p>The only thing that you absolutely have to Know is the location of library. 
+                Here we have the largest library in the world</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="basketball.jpg">
+            <h3> Largest Play Ground</h3>
+            <p>Playground is also essential for everyone beacause of, 
+                you can keep yourself fit by playing and regular exeracise</p>
+        </div>
+
+        <div class="facilities-col">
+            <img src="cafe.jpg">
+            <h3>Tasty And Healthy</h3>
+            <p>One cup of coffee can refresh yourself. 
+            We can assure you that you also get a largest and beautiful cafeteria in here</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- Footer -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>The University of Oxford is a collegiate research university in Oxford, England.
+        There is evidence of teaching<br> as early as making it the oldest 
+        university in the English-speaking world and the world's second-oldest university in continuous operation.</p>
+    <div class="icons">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+    </div>
+    <b> <p>Made  With <i class="fa fa-heart-o" aria-hidden="true"></i> by  Mredul</p> </b>
+</section>
+
+
+
+
+
+<!-- For Javascript -->
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right= "0";
+    }
+    function hideMenu(){
+        navLinks.style.right= "-200px";
+    }
+
+</script>
+
+</body>
+</html>
